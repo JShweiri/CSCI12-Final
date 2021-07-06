@@ -1,0 +1,97 @@
+@import url("/CS12/Styles/topnav.css");
+@import url("/CS12/Styles/dropdown.css");
+
+@import url("/CS12/Styles/form.css");
+
+/* FONTS */
+@import url("/CS12/Styles/Porter_Bold/stylesheet.css");
+@import url("/CS12/Styles/Open_Sans/stylesheet.css");
+/* FONTS */
+
+body{
+  background-color: #f2f6fd;
+  font-family: "Open Sans";
+  margin: 0px;
+}
+
+h1{
+  font-family: "Porter Bold DEMO";
+  margin: 0px;
+}
+
+.content-image{
+  padding: 20px;
+}
+
+.bad{
+    color: red;
+}
+
+.good{
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.social-media{
+  width: 100%;
+  grid-column: auto / -1;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.social-media-items{
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.content-item {
+  background-color: #d3e1f9;
+  padding: 20px;
+}
+
+.newsletter {
+  width: 22%;
+  min-width: 225px;
+  padding-top: 10px;
+}
+
+.footer-item{
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+}
+
+.disclaimer{
+  font-size: 16;
+  grid-column: span 2;
+}
+
+.footer {
+  background-color: #17499f;
+  color:  #f2f6fd;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media screen and (max-width: 600px){
+
+.social-media {
+  display: none;
+  }
+}

@@ -1,0 +1,33 @@
+input[type=text] {
+    padding:5px;
+    background-color: #a8ddf3;
+    -webkit-appearance: none;
+}
+
+input[type=text]:focus {
+    background-color: #d3eef9;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background-color: #a8ddf3;
+    border:0 none;
+    cursor:pointer;
+    -webkit-appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.error {
+  color: red;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #444;
+    opacity: 1; /* Firefox */
+}

@@ -1,0 +1,30 @@
+.dropdown-content {
+  /*Hidecontent*/
+  font-size: 0.9vw;
+    display: none;
+    position: absolute;
+    background-color: var(--defaultColor);
+    min-width:  16.666666666%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  /* Functionality*/
+    display: block;
+}
+
+@media screen and (max-width: 1000px){
+    /*Make Vertical on small screen*/
+.dropdown-content {
+          font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+    /*Make Vertical on small screen*/
+.dropdown-content {
+          font-size: 2.5vw;
+          -webkit-appearance: none;
+  }
+}
